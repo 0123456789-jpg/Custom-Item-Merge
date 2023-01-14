@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "custom-item-merge",
+  "version": "${version}",
+  "name": "Custom Item Merge",
+  "description": "go go go merge everything",
+  "authors": [
+    "C191239"
+  ],
+  "contact": {
+    "website": "https://github.com/0123456789-jpg/"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/custom-item-merge/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.c191239.customitemmerge.CustomItemMerge"
+    ]
+  },
+  "mixins": [
+    "custom-item-merge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "minecraft": "1.17.1"
+  }
+}

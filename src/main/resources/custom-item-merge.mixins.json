@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.c191239.customitemmerge.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": ["ItemEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
