@@ -3,10 +3,12 @@
   "minVersion": "0.8",
   "package": "org.c191239.customitemmerge.mixin",
   "compatibilityLevel": "JAVA_16",
-  "mixins": ["ItemEntityMixin"
+  "mixins": [
+    "ItemEntityMixin",
+    "ReloadCommandMixin"
   ],
-  "client": [
-  ],
+  "client": [],
+  "server": [],
   "injectors": {
     "defaultRequire": 1
   }
