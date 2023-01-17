@@ -18,6 +18,7 @@ public class CustomItemMerge implements ModInitializer {
             CustomItemMerge.errorLog("Suppressed exception", e);
         }
         CustomItemMerge.infoLog("Using custom-item-merge by C191239");
+
     }
     public static void errorLog(String s, Throwable t){
         LOGGER.error("[Custom item merge] "+s, t);
